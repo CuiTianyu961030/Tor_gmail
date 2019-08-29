@@ -1,4 +1,4 @@
-# Tor_gmail_cty
+# Tor_gmail
 ## 使用说明
 ###注意事项
 由于Tor只返回riseup、gmail、yohoo邮箱邮件，脚本需要使用gmail邮箱。
