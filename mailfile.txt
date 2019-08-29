@@ -1,0 +1,53 @@
+
+Hey, cuitianyu961030!
+
+[This is an automated message; please do not reply.]
+
+Here are your bridges:
+
+  76.10.157.51:443 4AF8976066C0603BC69022DD09D85A17280B7567
+  37.139.80.10:9001 0C72CA7EB5105ED4C6E6EE2C596F88EEACD69E1F
+  77.6.110.50:9001 6C438FD050351D8A2D9793AA1FA71E063BE1329B
+
+
+To enter bridges into Tor Browser, first go to the  Tor Browser download
+page [0] and then follow the instructions there for downloading and starting
+Tor Browser.
+
+When the 'Tor Network Settings' dialogue pops up, click 'Configure' and follow
+the wizard until it asks:
+
+> Does your Internet Service Provider (ISP) block or otherwise censor connections
+> to the Tor network?
+
+Select 'Yes' and then click 'Next'. To configure your new bridges, copy and
+paste the bridge lines into the text input box. Finally, click 'Connect', and
+you should be good to go! If you experience trouble, try clicking the 'Help'
+button in the 'Tor Network Settings' wizard for further assistance.
+
+[0]: https://www.torproject.org/projects/torbrowser.html
+
+
+
+COMMANDs: (combine COMMANDs to specify multiple options simultaneously)
+  get bridges            Request vanilla bridges.
+  get transport [TYPE]   Request a Pluggable Transport by TYPE.
+  get help               Displays this message.
+  get key                Get a copy of BridgeDB's public GnuPG key.
+  get ipv6               Request IPv6 bridges.
+
+Currently supported transport TYPEs:
+  fte
+  obfs3
+  obfs4
+  scramblesuit
+
+
+ --
+ <3 BridgeDB
+______________________________________________________________________
+Public Keys: https://bridges.torproject.org/keys
+This email was generated with rainbows, unicorns, and sparkles
+for cuitianyu961030@gmail.com on Thursday, 25 January, 2018 at 09:53:59.
+
+
